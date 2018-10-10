@@ -112,7 +112,7 @@ Toggles a class, given as an argument, for each `DOMiNodeCollection` element.
 
 ```javascript
 const callback = ()=> {
-  console.log("Hello world!"
+  console.log("Hello world!")
 }
 DOMiNode.on("click", callback);
 DOMiNode.off("click");
@@ -132,7 +132,7 @@ Removes event listener from each `DOMiNodeCollection` element.
 
 Sends HTTP Request and returns a `Promise` object.  
 
-Accepts a `Hash` object as an argument with any of the following attributes:
+Accepts a `Object` as an argument with any of the following attributes:
   * method (default: "GET"): HTTP Request method or type
   * url (default: window.location.href): URL for HTTP Request
   * success: success callback
